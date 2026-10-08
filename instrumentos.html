@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Instrumentos - Harmonia Sonora</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Harmonia Sonora</h1>
+        <p>Instrumentos</p>
+
+        <nav>
+            <a href="index.html">Início</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <h2>Instrumentos</h2>
+
+        <div class="destaque">
+
+            <img id="imagemSom"
+                src="assets/imagens/capa.svg"
+                alt="Imagem do som">
+
+            <h3 id="nomeSom">Nenhum som selecionado</h3>
+
+        </div>
+
+        <div id="imagens" class="oculto">
+
+            <img id="violao"
+                src="assets/imagens/violao imagem.jpg"
+                alt="Vilao">
+
+            <img id="violino"
+                src="assets/imagens/violino imagem.jpg"
+                alt="violino">
+
+            <img id="flauta"
+                src="assets/imagens/flauta imagem.jpg"
+                alt="flauta">
+
+            <img id="saxofone"
+                src="assets/imagens/saxofone imagem.jpg"
+                alt="Saxofone">
+
+            <img id="bateria"
+                src="assets/imagens/bateria imagem.jpg"
+                alt="Bateria">
+
+            <img id="piano"
+                src="assets/imagens/piano imagem.jpg"
+                alt="Piano">
+
+        </div>
+
+        <div class="botoes">
+
+            <button class="som"
+                data-audio="violao.mp3"
+                data-imagem="violao">
+                Violão
+            </button>
+
+            <button class="som"
+                data-audio="violino.mp3"
+                data-imagem="violino">
+                Violino
+            </button>
+
+            <button class="som"
+                data-audio="flauta.mp3"
+                data-imagem="flauta">
+                Flauta
+            </button>
+
+            <button class="som"
+                data-audio="saxofone.mp3"
+                data-imagem="saxofone">
+                Saxofone
+            </button>
+
+            <button class="som"
+                data-audio="bateria.mp3"
+                data-imagem="bateria">
+                Bateria
+            </button>
+
+            <button class="som"
+                data-audio="piano.mp3"
+                data-imagem="piano">
+                Piano
+            </button>
+
+        </div>
+
+    </main>
+
+    <footer>
+    
+    </footer>
+
+    <audio id="audio"></audio>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

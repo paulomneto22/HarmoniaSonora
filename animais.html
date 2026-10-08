@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sons de Animais - Harmonia Sonora</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Harmonia Sonora</h1>
+        <p>Sons de Animais</p>
+
+        <nav>
+            <a href="index.html">Início</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <h2>Sons de Animais</h2>
+
+        <div class="destaque">
+
+            <img id="imagemSom"
+                src="assets/imagens/capa.svg"
+                alt="Imagem do som">
+
+            <h3 id="nomeSom">Nenhum som selecionado</h3>
+
+        </div>
+
+        <div id="imagens" class="oculto">
+
+            <img id="cachorro"
+                src="assets/imagens/cachorro imagem.jpg"
+                alt="Cachorro">
+
+            <img id="gato"
+                src="assets/imagens/gato imagem.jpg"
+                alt="Gato">
+
+            <img id="leao"
+                src="assets/imagens/leao imagem.jpg"
+                alt="Leão">
+
+            <img id="vaca"
+                src="assets/imagens/vaca imagem.jpg"
+                alt="Vaca">
+
+            <img id="cavalo"
+                src="assets/imagens/cavalo imagem.jpg"
+                alt="Cavalo">
+
+            <img id="passaro"
+                src="assets/imagens/passaro imagem.jpg"
+                alt="Pássaro">
+
+        </div>
+
+        <div class="botoes">
+
+            <button class="som"
+                data-audio="cachorro-rabujento.mp3"
+                data-imagem="cachorro">
+                Cachorro
+            </button>
+
+            <button class="som"
+                data-audio="meow-1.mp3"
+                data-imagem="gato">
+                Gato
+            </button>
+
+            <button class="som"
+                data-audio="efeitos-sonoros-rugido-de-leao.mp3"
+                data-imagem="leao">
+                Leão
+            </button>
+
+            <button class="som"
+                data-audio="vaca-mugir.mp3"
+                data-imagem="vaca">
+                Vaca
+            </button>
+
+            <button class="som"
+                data-audio="cavalo_2.mp3"
+                data-imagem="cavalo">
+                Cavalo
+            </button>
+
+            <button class="som"
+                data-audio="bem-te-vi-assobio.mp3"
+                data-imagem="passaro">
+                Pássaro
+            </button>
+
+        </div>
+
+    </main>
+
+    <footer>
+       
+    </footer>
+
+    <audio id="audio"></audio>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

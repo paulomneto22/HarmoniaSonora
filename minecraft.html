@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Minecraft - Harmonia Sonora</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Harmonia Sonora</h1>
+        <p>Minecraft</p>
+
+        <nav>
+            <a href="index.html">Início</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <h2>Minecraft</h2>
+
+        <div class="destaque">
+
+            <img id="imagemSom"
+                src="assets/imagens/capa.svg"
+                alt="Imagem do som">
+
+            <h3 id="nomeSom">Nenhum som selecionado</h3>
+
+        </div>
+
+        <div id="imagens" class="oculto">
+
+            <img id="agua"
+                src="assets/imagens/água minecraft.jpg"
+                alt="Água">
+
+            <img id="villager"
+                src="assets/imagens/villager minecraft.jpg"
+                alt="Villager">
+
+            <img id="comida"
+                src="assets/imagens/Comida minecraft.jpg"
+                alt="Comida">
+
+            <img id="creeper"
+                src="assets/imagens/Creeper Minecraft.jpg"
+                alt="Creeper">
+
+            <img id="ovelha"
+                src="assets/imagens/ovelha minecraft.jpg"
+                alt="Ovelha">
+
+            <img id="xp"
+                src="assets/imagens/XP Minecraft.jpg"
+                alt="XP">
+
+        </div>
+
+        <div class="botoes">
+
+            <button class="som"
+                data-audio="minecraft-water-splash-sound-effect.mp3"
+                data-imagem="agua">
+                Água
+            </button>
+
+            <button class="som"
+                data-audio="villager.mp3"
+                data-imagem="villager">
+                Villager
+            </button>
+
+            <button class="som"
+                data-audio="comida.mp3"
+                data-imagem="comida">
+                Comida
+            </button>
+
+            <button class="som"
+                data-audio="creeper-explosion.mp3"
+                data-imagem="creeper">
+                Creeper
+            </button>
+
+            <button class="som"
+                data-audio="minecraft-sheep2.mp3"
+                data-imagem="ovelha">
+                Ovelha
+            </button>
+
+            <button class="som"
+                data-audio="levelup.mp3"
+                data-imagem="xp">
+                XP
+            </button>
+
+        </div>
+
+    </main>
+
+    <footer>
+        
+    </footer>
+
+    <audio id="audio"></audio>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
